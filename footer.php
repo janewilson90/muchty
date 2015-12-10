@@ -1,6 +1,6 @@
       <footer>
         <div class="row">
-          <div class="container-fluid">
+          <div class="container">
             <div class="col-md-6">
               <h4>British Dental Association</h4>
               <ul class="link-list">

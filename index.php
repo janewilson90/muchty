@@ -17,7 +17,7 @@
           <div class="col-md-4">
             <div class="panel panel-default">
               <div class="panel-heading">
-                <h3 class="panel-title"><i class="fa fa-user-md"></i> NHS Patients</h3>
+                <h3 class="panel-title"><i class="fa fa-user-md"></i>NHS Patients</h3>
               </div>
               <div class="panel-body">
                 Panel content
@@ -27,7 +27,7 @@
           <div class="col-md-4">
             <div class="panel panel-default">
               <div class="panel-heading">
-                <h3 class="panel-title"><i class="fa fa-gbp"></i> Private Patients</h3>
+                <h3 class="panel-title"><i class="fa fa-gbp"></i>Private Patients</h3>
               </div>
               <div class="panel-body">
                 Panel content
@@ -37,7 +37,7 @@
           <div class="col-md-4">
             <div class="panel panel-default">
               <div class="panel-heading">
-                <h3 class="panel-title"><i class="fa fa-smile-o"></i> Childsmile</h3>
+                <h3 class="panel-title"><i class="fa fa-smile-o"></i>Childsmile</h3>
               </div>
               <div class="panel-body">
                 Panel content

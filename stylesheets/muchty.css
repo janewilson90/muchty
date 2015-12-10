@@ -10,6 +10,17 @@ body {
   font-family: Quicksand;
   font-weight: 400;
   color: #f25d59; }
+.navbar-header .header-book {
+  padding: 12px 15px; }
+  .navbar-header .header-book:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    width: 0.1px; }
+
+.panel-title .fa {
+  margin-right: 0.5em; }
 
 .link-list {
   list-style-type: none; }

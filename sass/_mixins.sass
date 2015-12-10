@@ -1,3 +1,11 @@
+%clearfix
+  *zoom: 1
+  &:after
+    content: ''
+    display: table
+    line-height: 0
+    clear: both
+
 =opacity($opacity)
   opacity: $opacity
   filter: alpha(opacity = $opacity * 100)
@@ -15,6 +23,13 @@
   font-size: $size
   font-size: $size / 16px * 1rem
 
+=vertical-align
+  &:before
+    content: ''
+    display: inline-block
+    vertical-align: middle
+    height: 100%
+    width: .1px
 
 =box-shadow($h: 10px, $v: 10px, $b: 0px, $s: 0px, $c: black)
   -webkit-box-shadow: $h $v $b $s $c
@@ -22,12 +37,12 @@
   box-shadow: $h $v $b $s $c
 
 
-=vertical-align
-  position: relative
-  top: 50%
-  -webkit-transform: translateY(-50%)
-  -ms-transform: translateY(-50%)
-  transform: translateY(-50%)
+// =vertical-align
+//   position: relative
+//   top: 50%
+//   -webkit-transform: translateY(-50%)
+//   -ms-transform: translateY(-50%)
+//   transform: translateY(-50%)
  
 
 =gradient($start-color, $end-color, $orientation)

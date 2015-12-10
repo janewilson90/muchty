@@ -12,7 +12,7 @@
 <!--   <link rel="stylesheet" href="stylesheets/flatly-theme.min.css"> -->
 
   <!--font awesome-->
-  <link rel="stylesheet" href="stylesheets/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
   <!--muchty-->
   <link rel="stylesheet" href="stylesheets/muchty.css">
@@ -38,7 +38,7 @@
                 <span class="icon-bar"></span>
               </button>
               <p class="navbar-text"><a class="navbar-brand" href="#">Auchtermuchty Dental Practice</a></p>
-              <p class="navbar-text"><strong>Book an appointment:</strong> <a href="tel:1-408-555-5555">1-408-555-5555</a></p>
+              <p class="navbar-text header-book"><strong>Book an appointment:</strong> <a href="tel:1-408-555-5555">1-408-555-5555</a></p>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
