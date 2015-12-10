@@ -1,5 +1,5 @@
-      <footer>
-        <div class="row">
+      <div class="row">
+        <footer>
           <div class="container">
             <div class="col-md-6">
               <h4>British Dental Association</h4>
@@ -17,8 +17,8 @@
               <h4>Copyright stuff</h4>
             </div>
           </div>
-        </div>
-      </footer>
+        </footer>
+      </div>
 
 
 
