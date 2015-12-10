@@ -60,10 +60,10 @@
           <div class="col-md-4">
             <h3>Address</h3>
             <address>
-              123 Imagination Road <br>
-              Daydream Way <br>
+              23 Black Dykes <br>
               Auchtermuchty <br>
-              KY12 123 <br>
+              Fife <br>
+              KY14 7AB <br>
               Scotland
             </address>
 
