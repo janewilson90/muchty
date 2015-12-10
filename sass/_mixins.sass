@@ -82,6 +82,17 @@
     background: $border-color
     color: $hover-color
 
+=icon-list($icon, $width)
+list-style-type: none
+  li 
+    padding-left: $width
+    &:before
+      content: $icon
+      font-family: "FontAwesome"
+      display: inline-block
+      width: $width
+      margin-left: -$width
+
 =link-list($icon, $width, $color)
   list-style-type: none
   li 
