@@ -38,6 +38,7 @@
                 <span class="icon-bar"></span>
               </button>
               <p class="navbar-text"><a class="navbar-brand" href="#">Auchtermuchty Dental Practice</a></p>
+              <p class="navbar-text"><strong>Book an appointment:</strong> <a href="tel:1-408-555-5555">1-408-555-5555</a></p>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->

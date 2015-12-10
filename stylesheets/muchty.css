@@ -8,6 +8,7 @@ body {
 
 .navbar-header .navbar-brand {
   font-family: Quicksand;
+  font-weight: 400;
   color: #f25d59; }
 
 .link-list {
@@ -43,6 +44,18 @@ body {
   .casper:hover {
     background: #f25d59;
     color: #000000; }
+
+.gmap {
+  position: relative;
+  padding-bottom: 30%;
+  height: 0;
+  overflow: hidden; }
+  .gmap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important; }
 
 footer {
   background-color: #f25d59; }
