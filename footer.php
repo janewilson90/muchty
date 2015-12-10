@@ -15,6 +15,11 @@
             </div>
             <div class="col-md-2">
               <h4>Copyright stuff</h4>
+              <p>
+                <span class="text">Made with</span> 
+                <span class="heart">&#9829; </span>
+                <span class="text">in Dundee</span>
+              </p>
             </div>
           </div>
         </footer>

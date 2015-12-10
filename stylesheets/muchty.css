@@ -70,3 +70,18 @@ body {
 
 footer {
   background-color: #f25d59; }
+
+.text {
+  font: italic 16px Georgia;
+  text-align: center; }
+
+.heart {
+  display: inline-block;
+  font-size: 12px;
+  font-family: Georgia;
+  font-style: normal;
+  color: firebrick;
+  text-align: center;
+  min-width: 12px; }
+  .heart:hover {
+    cursor: pointer; }
