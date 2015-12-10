@@ -1,0 +1,27 @@
+@import mixins
+@import settings
+
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300|Roboto+Slab:400,300)
+
+
+h1, h2, h3, h4, h5, h6
+  font-family: Quicksand
+body 
+  font-family: Roboto Slab
+
+.navbar-header
+  .navbar-brand
+    font-family: Quicksand
+    color: $muchty-red
+
+.link-list
+  @include link-list("\f14c", 1.2em, #d3d3d3)
+
+.casper
+  @include ghost-button("Quicksand", "12px", $muchty-red, 2px, $muchty-red, 4px, 300ms, #000000 )
+  @include border-radius(2px)
+  font-weight: 400
+
+
+footer 
+  background-color: $muchty-red
