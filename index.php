@@ -3,9 +3,9 @@
       <div class="row">
         <div class="container">
           <div class="jumbotron">
-            <h1>Catering for your needs</h1>
-            <p>...</p>
-            <p><button class="casper" href="#" role="button">Book an appointment</button></p>
+            <h1>Now accepting NHS patients</h1>
+            <p></p>
+            <p><button class="casper" href="#" role="button" data-toggle="modal" data-target="#appointments">Register as a patient</button></p>
           </div>
         </div>
       </div>
@@ -17,21 +17,23 @@
           <div class="col-md-4">
             <div class="panel panel-default">
               <div class="panel-heading">
-                <h3 class="panel-title"><i class="fa fa-user-md"></i>NHS Patients</h3>
+                <h3 class="panel-title"><i class="fa fa-user-md"></i>NHS Treatments</h3>
               </div>
               <div class="panel-body">
                 Panel content
               </div>
+              <div class="panel-footer"><button class="btn btn-primary" role="button" data-toggle="modal" data-target="#appointments">Book an appointment</button></div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="panel panel-default">
               <div class="panel-heading">
-                <h3 class="panel-title"><i class="fa fa-gbp"></i>Private Patients</h3>
+                <h3 class="panel-title"><i class="fa fa-gbp"></i>Private Treatments</h3>
               </div>
               <div class="panel-body">
                 Panel content
               </div>
+              <div class="panel-footer"><button class="btn btn-primary" role="button" data-toggle="modal" data-target="#appointments">Book an appointment</button></div>
             </div>
           </div>
           <div class="col-md-4">
@@ -42,6 +44,7 @@
               <div class="panel-body">
                 Panel content
               </div>
+              <div class="panel-footer"><button class="btn btn-primary" role="button" data-toggle="modal" data-target="#appointments">Book an appointment</button></div>
             </div>
           </div>
 
@@ -74,5 +77,7 @@
       </div>
 
       <hr>
+
+<?php include ("appointment-modal.php"); ?>
 
 <?php include("footer.php"); ?>

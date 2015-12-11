@@ -4,7 +4,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Quicksand; }
 
 body {
-  font-family: Roboto Slab; }
+  font-family: Roboto Slab;
+  padding: 0.1em;
+  width: auto !important;
+  overflow-x: hidden !important; }
 
 .navbar-header .navbar-brand {
   font-family: Quicksand;
