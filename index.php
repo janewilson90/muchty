@@ -22,7 +22,6 @@
               <div class="panel-body">
                 Panel content
               </div>
-              <div class="panel-footer"><button class="btn btn-primary" role="button" data-toggle="modal" data-target="#appointments">Book an appointment</button></div>
             </div>
           </div>
           <div class="col-md-4">
@@ -33,7 +32,6 @@
               <div class="panel-body">
                 Panel content
               </div>
-              <div class="panel-footer"><button class="btn btn-primary" role="button" data-toggle="modal" data-target="#appointments">Book an appointment</button></div>
             </div>
           </div>
           <div class="col-md-4">
@@ -44,10 +42,20 @@
               <div class="panel-body">
                 Panel content
               </div>
-              <div class="panel-footer"><button class="btn btn-primary" role="button" data-toggle="modal" data-target="#appointments">Book an appointment</button></div>
             </div>
           </div>
 
+        </div>
+
+      </div>
+
+      <div class="row appointments">
+
+        <div class="container">
+          <div class="col-md-12">
+            <h2>Make an appointment</h2>
+            <button class="casper" role="button" data-toggle="modal" data-target="#appointments">Book now</button>
+          </div>
         </div>
 
       </div>
