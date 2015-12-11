@@ -20,7 +20,12 @@
                 <h3 class="panel-title"><i class="fa fa-user-md"></i>NHS Treatments</h3>
               </div>
               <div class="panel-body">
-                Panel content
+                <ul class="treatments">
+                  <li>Checkups</li>
+                  <li>Fillings</li>
+                  <li>Root Canal</li>
+                  <li>Extractions</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -30,7 +35,12 @@
                 <h3 class="panel-title"><i class="fa fa-gbp"></i>Private Treatments</h3>
               </div>
               <div class="panel-body">
-                Panel content
+                <ul class="treatments">
+                  <li>Fillings</li>
+                  <li>Dentures</li>
+                  <li>Tooth Whitening</li>
+                  <li>Veneers</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -40,7 +50,7 @@
                 <h3 class="panel-title"><i class="fa fa-smile-o"></i>Childsmile</h3>
               </div>
               <div class="panel-body">
-                Panel content
+                <p>Childsmile Practice provides a universally-accessible, child-centred NHS dental service, through a network of independent and public dental service providers.</p>
               </div>
             </div>
           </div>
