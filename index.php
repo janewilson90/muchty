@@ -50,8 +50,8 @@
                 <h3 class="panel-title"><i class="fa fa-smile-o"></i>Childsmile</h3>
               </div>
               <div class="panel-body">
-                <p>Childsmile Practice provides a universally-accessible, child-centred NHS dental service, through a network of independent and public dental service providers.</p>
-              </div>
+                <p>Childsmile Practice provides a universally-accessible, child-centred NHS dental service, through a network of independent and public dental service providers.</p
+>              </div>
             </div>
           </div>
 

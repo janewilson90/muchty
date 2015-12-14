@@ -12,17 +12,19 @@ body
   width: auto !important
   overflow-x: hidden !important
 
+
 .navbar-header
   .navbar-brand
     font-family: Quicksand
     font-weight: 400
+    font-size: 24px
     color: $muchty-red
   .header-book
     @include vertical-align
     padding: 12px 15px
 
 .row.appointments
-  background-color: $muchty-red-light
+  background-color: $muchty-red-lighter
   text-align: center
   padding: 1em 0 2em 0
 
@@ -33,7 +35,7 @@ body
   @include link-list("\f14c", 1.2em, #d3d3d3)
 
 .casper
-  @include ghost-button("Quicksand", "12px", $muchty-red, 2px, $muchty-red, 4px, 300ms, #000000 )
+  @include ghost-button("Quicksand", "12px", $muchty-red-light, 2px, $muchty-red-light, 4px, 300ms, #000000 )
   @include border-radius(2px)
   font-weight: 400
 
@@ -52,20 +54,9 @@ body
 
 
 footer 
-  background-color: $muchty-red
+  background-color: $muchty-red-light
 
 
-.text
-  font: italic 16px Georgia
+.love-dundee
   text-align: center
-
-.heart
-  display: inline-block
-  font-size: 12px
-  font-family: Georgia
-  font-style: normal
-  color: firebrick
-  text-align: center
-  min-width: 12px
-  &:hover
-    cursor: pointer
+  @include love-dundee(16px, 20px, "left")
