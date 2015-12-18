@@ -23,7 +23,7 @@ body {
     height: 100%;
     width: 0.1px; }
 
-.row .appointments {
+.appointments {
   background-color: #f8dbdb;
   text-align: center;
   padding: 1em 0 2em 0; }
