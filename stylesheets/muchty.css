@@ -5,6 +5,7 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
   font-family: Roboto Slab;
+  font-size: 14px;
   padding: 0.1em;
   width: auto !important;
   overflow-x: hidden !important; }
@@ -33,7 +34,8 @@ body {
 
 .main-heading {
   text-transform: uppercase;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 1em; }
 
 .treatments-key {
   text-align: center;

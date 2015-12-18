@@ -7,7 +7,7 @@
 
     <h2 class="main-heading">Treatments</h2>
 
-      <div class="treatments-key col-md-10 col-md-offset-1">
+      <div class="treatments-key col-md-10 col-md-offset-1 button-group">
         <button class="treatment-btn btn btn-default current" data-filter="*">All 
           <span class="treatment-badge badge">4</span>
         </button>
@@ -19,32 +19,50 @@
         </button>
       </div>
 
-      <div class="treatment-grid col-md-12">
-        <div class="col-md-3 treatment-item nhs">
+      <div class="col-md-12">
+      <div class="treatment-grid">
+
+        <div class="col-md-3 col-sm-12 treatment-item nhs">
           <h3>Check Up</h3>
           <p>The standard NHS checkup</p>
         </div>
 
-        <div class="col-md-3 treatment-item nhs private">
+        <div class="col-md-3 col-sm-12 treatment-item nhs private">
           <h3>Extraction</h3>
           <p>The standard NHS checkup</p>
         </div>
 
-        <div class="col-md-3 treatment-item private">
+        <div class="col-md-3 col-sm-12 treatment-item private">
           <h3>Dentures</h3>
           <p>The standard NHS checkup</p>
         </div>
 
-        <div class="col-md-3 treatment-item nhs">
+        <div class="col-md-3 col-sm-12 treatment-item nhs">
           <h3>Metal Fillings</h3>
           <p>The standard NHS checkup</p>
         </div>
 
-        <div class="col-md-3 treatment-item private">
+        <div class="col-md-3 col-sm-12 treatment-item private">
           <h3>White Fillings</h3>
           <p>The standard NHS checkup</p>
         </div>
 
+        <div class="col-md-3 col-sm-12 treatment-item nhs">
+          <h3>Root Canal</h3>
+          <p>The standard NHS checkup</p>
+        </div>
+
+        <div class="col-md-3 col-sm-12 treatment-item nhs">
+          <h3>Crown</h3>
+          <p>The standard NHS checkup</p>
+        </div>
+
+        <div class="col-md-3 col-sm-12 treatment-item nhs">
+          <h3>X-Ray</h3>
+          <p>The standard NHS checkup</p>
+        </div>
+
+      </div>
       </div>
 
   </div>

@@ -10,6 +10,7 @@
     grid = $(".treatment-grid");
     grid.isotope({
       filter: '*',
+      itemSelector: '.treatment-item',
       animationOptions: {
         duration: 750,
         easing: 'linear',
@@ -23,6 +24,7 @@
       selector = $(this).attr("data-filter");
       grid.isotope({
         filter: selector,
+        itemSelector: '.treatment-item',
         animationOptions: {
           duration: 750,
           easing: 'linear',
