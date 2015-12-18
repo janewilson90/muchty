@@ -15,7 +15,7 @@ body {
   font-size: 24px;
   color: #b22222; }
 .navbar-header .header-book {
-  padding: 12px 15px; }
+  padding: 15px 15px; }
   .navbar-header .header-book:before {
     content: "";
     display: inline-block;
@@ -23,13 +23,34 @@ body {
     height: 100%;
     width: 0.1px; }
 
-.row.appointments {
+.row .appointments {
   background-color: #f8dbdb;
   text-align: center;
   padding: 1em 0 2em 0; }
 
 .panel-title .fa {
   margin-right: 0.5em; }
+
+.main-heading {
+  text-transform: uppercase;
+  text-align: center; }
+
+.treatments-key {
+  text-align: center;
+  margin-bottom: 1em; }
+
+.treatment-grid {
+  text-align: center; }
+
+.our-dentists .panel-heading {
+  background-color: #f8dbdb;
+  text-align: center; }
+  .our-dentists .panel-heading h3 {
+    color: #333333; }
+.our-dentists .panel-body .dentist-img {
+  border-radius: 100%;
+  display: block;
+  margin: 0 auto 1em auto; }
 
 .link-list {
   list-style-type: none; }
@@ -56,9 +77,6 @@ body {
   padding: 4px;
   -webkit-transition: color 300ms, background 300ms;
   transition: color 300ms, background 300ms;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -ms-border-radius: 2px;
   border-radius: 2px;
   font-weight: 400; }
   .casper:hover {
@@ -91,37 +109,20 @@ footer {
     color: firebrick; }
   .love-dundee .pulse {
     -webkit-animation: pulse 1s linear infinite;
-    -moz-animation: pulse 1s linear infinite;
     -ms-animation: pulse 1s linear infinite;
     animation: pulse 1s linear infinite; }
 @keyframes "pulse" {
   0% {
     -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -o-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1); }
   50% {
     -webkit-transform: scale(0.8);
-    -moz-transform: scale(0.8);
-    -o-transform: scale(0.8);
     -ms-transform: scale(0.8);
     transform: scale(0.8); }
   100% {
     -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -o-transform: scale(1);
     -ms-transform: scale(1);
-    transform: scale(1); } }
-@-moz-keyframes pulse {
-  0% {
-    -moz-transform: scale(1.1);
-    transform: scale(1.1); }
-  50% {
-    -moz-transform: scale(0.8);
-    transform: scale(0.8); }
-  100% {
-    -moz-transform: scale(1);
     transform: scale(1); } }
 @-webkit-keyframes "pulse" {
   0% {
@@ -143,3 +144,5 @@ footer {
   100% {
     -ms-transform: scale(1);
     transform: scale(1); } }
+
+/*# sourceMappingURL=muchty.css.map */

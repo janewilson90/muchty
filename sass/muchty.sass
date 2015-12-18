@@ -19,17 +19,45 @@ body
     font-weight: 400
     font-size: 24px
     color: $muchty-red
-  .header-book
-    @include vertical-align
-    padding: 12px 15px
 
-.row.appointments
-  background-color: $muchty-red-lighter
-  text-align: center
-  padding: 1em 0 2em 0
+  .header-book
+    padding: 15px 15px
+    @include vertical-align
+
+.row
+  .appointments
+    background-color: $muchty-red-lighter
+    text-align: center
+    padding: 1em 0 2em 0
 
 .panel-title .fa 
   margin-right: 0.5em
+
+.main-heading
+  text-transform: uppercase
+  text-align: center
+
+.treatments-key
+  text-align: center
+  margin-bottom: 1em
+
+.treatment-grid
+  text-align: center
+  .treatment-item
+    
+
+.our-dentists
+  .panel-heading
+    background-color: $muchty-red-lighter
+    text-align: center
+    h3
+      color: #333333
+  .panel-body
+    .dentist-img
+      @include circle
+      display: block
+      margin: 0 auto 1em auto
+
 
 .link-list
   @include link-list("\f14c", 1.2em, #d3d3d3)

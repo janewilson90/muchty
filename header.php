@@ -16,7 +16,6 @@
   <!--muchty-->
   <link rel="stylesheet" href="stylesheets/muchty.css">
 
-  <scripts src="js/scripts.js"></scripts>
 
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -38,14 +37,18 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <p class="navbar-text"><a class="navbar-brand" href="#">Auchtermuchty Dental Practice</a></p>
-              <p class="navbar-text header-book"><strong>Book an appointment:</strong> <a href="tel:1-408-555-5555">1-408-555-5555</a></p>
+              <p class="navbar-text">
+                <a class="navbar-brand" href="index.php">Auchtermuchty Dental Practice</a>
+                  <span class="header-book">
+                    <strong>Book an appointment:</strong> <a href="tel:1-408-555-5555">1-408-555-5555</a>
+                  </span>
+              </p>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="header-nav">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">About Us</a></li>
+                <li><a href="about.php">About Us</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container -->
