@@ -6,7 +6,7 @@
         <h4 class="modal-title">Appointments</h4>
       </div>
       <div class="modal-body">
-        <p>To make and appointment or register as a new patient, please call <a href="tel:1-408-555-5555">1-408-555-5555</a> or come into the practice.</p>
+        <p>To make and appointment or register as a new patient, please call <a href="tel:01337828360">01337 828360</a> or come into the practice.</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

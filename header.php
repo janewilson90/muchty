@@ -40,7 +40,7 @@
               <p class="navbar-text">
                 <a class="navbar-brand" href="index.php">Auchtermuchty Dental Practice</a>
                   <span class="header-book">
-                    <strong>Book an appointment:</strong> <a href="tel:1-408-555-5555">1-408-555-5555</a>
+                    <strong>Book an appointment:</strong> <a href="tel:01337828360">01337 828360</a>
                   </span>
               </p>
             </div>
